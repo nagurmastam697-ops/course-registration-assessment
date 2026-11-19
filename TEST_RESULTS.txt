@@ -1,0 +1,16 @@
+Command: python -m unittest discover -s tests -v
+
+test_concurrent_duplicate_requests_are_serialized ... ok
+test_drop_promotes_fifo_eligible_learner ... ok
+test_duplicate_enrollment_does_not_duplicate_waitlist ... ok
+test_enroll_with_available_capacity ... ok
+test_full_course_adds_eligible_learner_to_waitlist ... ok
+test_ineligible_front_is_skipped_but_retained ... ok
+test_invalid_and_repeated_drop_are_safe ... ok
+test_invalid_capacity_rejected ... ok
+test_prerequisite_failure_never_enrolls_or_waitlists ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests ... OK
+
+All 9 tests passed.
